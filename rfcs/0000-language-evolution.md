@@ -151,7 +151,7 @@ namespace PhpParser\Node;
 
 Declares could then be bound to a particular package, rather than a particular namespace. Additionally, the same feature could be reused for other package-based features, such as package-private symbols.
 
-The advantage of this approach is that it resolves the ambiguities that exist around using namespaces for this purpose. On the other hand, it introduces a whole new concept to the language, and may caused confusion in how it relates to namespaces. Unless this concept is also used for other purposes, it may not be worthwhile to introduce it.
+The advantage of this approach is that it resolves the ambiguities that exist around using namespaces for this purpose. On the other hand, it introduces a whole new concept to the language, and may cause confusion in how it relates to namespaces. Unless this concept is also used for other purposes, it may not be worthwhile to introduce it.
 
 ## Filesystem based packages
 
